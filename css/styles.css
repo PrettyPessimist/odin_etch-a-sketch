@@ -1,0 +1,74 @@
+* {
+    box-sizing: content-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin:auto;
+    font-size: 20px;
+    flex-basis: 785px;
+    max-width: 800px;
+}
+
+button.dark {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+
+h1{
+    flex-grow: 1.6;
+}
+
+.gridSize {
+    flex-grow: 1.6;
+    font-weight: bold;
+
+}
+
+button.rainbow {
+    background: linear-gradient(
+        to right, 
+        red, orange, yellow, green, blue, indigo, violet
+    );
+    color:white;
+    font-weight: bold;
+}
+
+.rainbow strong {
+    background-color: rgba(128, 128, 128, 0.5); 
+    padding: 5px;
+}
+
+
+
+
+.container {
+    display:flex;
+    height: 500px;
+    width: 500px;
+    border: solid black 5px;
+    margin:auto;
+    flex-flow:row wrap;
+    row-gap: 0px;
+    flex-basis: 500px;
+}
+
+.newDiv {
+    box-sizing: content-box;
+    border: solid black 2px;
+    margin: 0;
+    padding:0;
+    flex-basis:0 0 auto;
+    
+}
+
+button {
+    font-size: 16px;
+    height: 50px;
+    margin: 16px;
+    align-self: center;
+    flex-grow: 1;
+}
